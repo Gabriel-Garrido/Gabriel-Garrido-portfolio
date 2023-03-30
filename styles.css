@@ -1,0 +1,157 @@
+  /* ---animations--- */
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+    /* ---/animations--- */
+
+.text-suvliminal {
+    color: #8f89f5 !important;
+}
+
+#homeButton {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.navbar-collapse {
+    animation-name: slideInRight;
+    animation-duration: 1s;
+}
+
+.btn-suvliminal {
+    background-color: #8f89f5;
+    color: rgb(255, 255, 255);
+}
+
+.btn-suvliminal:hover {
+    background-color: #7672ca;
+    color: rgb(255, 255, 255);
+}
+
+#main .carousel-inner img {
+    max-height: 90vh;
+    object-fit: cover;
+    background: black;
+    filter: grayscale(70%);
+}
+
+/* ---Main--- */
+
+#header img {
+    width: 150px;
+    border-image: 1px solid black;
+}
+
+#hello {
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    font-size: 5vw
+
+    } 
+  
+#gabriel {
+    animation-name: slideInRight;
+    animation-duration: 2s;
+    font-size: 10vw
+
+    }
+
+#description {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    font-size: 4vw
+    }
+
+.btnMain {
+    animation-name: zoomIn;
+    animation-duration: 2s;
+    }
+  
+
+/* ---/Main--- */
+
+.card img {
+    max-height: 370px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#about {
+  background: black;
+  filter: grayscale(40%);
+    color: white;
+}
+
+#about img {
+    max-width: 100%;
+}
+
+#footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(38,27,69,1) 61%, rgba(5,5,57,1) 76%); 
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#footer a {
+    color: white;
+}
+
+.perfil {
+    object-position: top
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
