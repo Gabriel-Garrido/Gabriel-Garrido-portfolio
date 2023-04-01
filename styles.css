@@ -89,25 +89,22 @@
 }
 
 #hello {
-    animation-name: slideInLeft;
-    animation-duration: 2s;
-    font-size: 5vw
+  animation-name: slideInLeft;
+  animation-duration: 2s;
+  font-size: 5vw
+  } 
 
-    } 
-  
 #gabriel {
-    
-    font-size: 9vw;
-    animation-name: zoomIn;
-    animation-duration: 30s;
-
-    }
+  font-size: 9vw;
+  animation-name: zoomIn;
+  animation-duration: 30s;
+  }
 
 #description {
-    animation-name: slideInRight;
-    animation-duration: 2s;
-    font-size: 4vw
-    }
+  animation-name: slideInRight;
+  animation-duration: 2s;
+  font-size: 4vw
+  }
 
 .btnMain {
     animation-name: fadeIn;
